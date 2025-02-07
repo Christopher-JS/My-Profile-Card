@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="profile-card" data-testid="profileCard">
+        <!-- Profile Picture -->
+        <img src="./Images/J_Chris.jpeg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+        <!-- Full Name -->
+        <h1 data-testid="fullName">Christopher Tabaro</h1>
+
+        <!-- Job Title -->
+        <p data-testid="jobTitle">Front-End Developer</p>
+
+        <!-- Short Bio -->
+        <p data-testid="shortBio">
+            Passionate about creating user-friendly and visually appealing web experiences.
+            I enjoy solving problems and constantly learning new technologies to improve my skills.
+        </p>
+
+        <!-- Current Location -->
+        <p data-testid="currentLocation">📍 Kampala, Uganda</p>
+
+        <!-- Email Address -->
+        <p data-testid="emailAddress">📧 christabaro04@gmail.com</p>
+
+        <!-- Social Links -->
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/christopher-tabaro-805a2134b/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Christopher-JS" target="_blank">GitHub</a>
+        </div>
+
+        <!-- Current Time in UTC -->
+        <p data-testid="currentTimeUTC">🕒 Current UTC Time: <span id="utcTime"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
